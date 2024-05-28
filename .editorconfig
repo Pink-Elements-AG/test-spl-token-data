@@ -1,7 +1,7 @@
 ; This file is for unifying the coding style for different editors and IDEs.
 ; More information at http://EditorConfig.org
 ; This style is a MUST for all Pink Elements AG projects
-; Copyright (c) 2023, Pink Elements AG
+; Copyright (c) 2024, Pink Elements AG
 
 root = true
 
