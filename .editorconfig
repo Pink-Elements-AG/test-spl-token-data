@@ -1,0 +1,81 @@
+; This file is for unifying the coding style for different editors and IDEs.
+; More information at http://EditorConfig.org
+; This style is a MUST for all Pink Elements AG projects
+; Copyright (c) 2023, Pink Elements AG
+
+root = true
+
+###########################################################
+; common
+###########################################################
+
+[*]
+trim_trailing_whitespace = true
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+
+[*.{json,yml,yaml}]
+indent_style = space
+indent_size = 2
+
+[*.conf]
+indent_style = tab
+
+###########################################################
+; JS, TypeScript, Vue
+###########################################################
+
+[*.{js,ts,vue}]
+indent_style = space
+indent_size = 2
+
+[package.json]
+indent_style = space
+indent_size = 2
+
+###########################################################
+; Go
+###########################################################
+
+[{go.mod,go.sum,*.go}]
+indent_style = tab
+
+###########################################################
+; Rust
+###########################################################
+
+[*.rs]
+indent_style = space
+indent_size = 4
+
+###########################################################
+; Python
+###########################################################
+
+[*.py]
+indent_style = space
+indent_size = 4
+
+###########################################################
+; Protobuf
+###########################################################
+
+[*.proto]
+indent_style = space
+indent_size = 2
+
+###########################################################
+; Docker
+###########################################################
+
+[Dockerfile]
+indent_style = space
+indent_size = 2
+
+###########################################################
+; markdown
+###########################################################
+
+[*.md]
+trim_trailing_whitespace = false
