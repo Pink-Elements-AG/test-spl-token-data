@@ -1,2 +1,2 @@
-# architecture
-All documents, diagrams, etc. related to architecture of the projects
+# Test Metadata for Metaplex SPL Token
+Mainly for test tokens `json` and image.
