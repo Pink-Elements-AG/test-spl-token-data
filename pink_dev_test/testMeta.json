@@ -1,11 +1,11 @@
 {
   "metadata": {
     "name": "PE PINK01 test token",
-    "image": "",
+    "image": "https://github.com/Pink-Elements-AG/test-spl-token-data/blob/development/pink_dev_test/1_croped.png",
     "symbol": "PETEST01",
     "description": "PE Devnet test token",
     "twitter": "https://x.com/pink_elements/status/1791578544499290187",
     "website": "https://pink-token.com/"
   },
-  "uri": ""
+  "uri": "https://github.com/Pink-Elements-AG/test-spl-token-data/blob/development/pink_dev_test/testMeta.json"
 }
